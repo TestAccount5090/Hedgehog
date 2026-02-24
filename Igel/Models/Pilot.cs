@@ -2,10 +2,11 @@
 {
     public class Pilot
     {
-        public string PesonalNumber { get; set; }
+        public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public List<string> PilotRank = ["Kapitän", "Erster Offizier", "Zweiter Offizier", "Ausbildungspilot" ];
-        public FlightCrew FlightCrew { get; set; }
+        public string PilotRank;
+
+        //public FlightCrew FlightCrew { get; set; }
     }
 }
